@@ -38,7 +38,7 @@ def get_location(ip):
             "country": "Unknown country"
         }, "N/A"
 
-def index(request):
+def hello(request):
     visitor_name = request.GET.get('visitor_name', 'Visitor')
     client_ip = get_ip()
 
